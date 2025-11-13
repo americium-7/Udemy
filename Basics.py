@@ -25,6 +25,16 @@ print("The addition of a + b is:",c)
 #if as we see the output of this is only c.
 
 
+fruits=["apple" , "banana" , "orange "] #list == Array
+print(fruits[1])
+(print(type(fruits)))
+
+fruits=("apple" , "banana" , "orange ")#list == tuple
+print(fruits[1])
+(print(type(fruits)))
+
+
+
 
 #if we want to go on next line we can use /n funtion
 #lets see
