@@ -1,5 +1,5 @@
 import string 
-import randoom
+import random
 
 def gen():
     s1 = string.ascii_uppercase
@@ -17,4 +17,9 @@ def gen():
     s.extend(list(s2))
     s.extend(list(s3))
     s.extend(list(s4))
-    print(s)
+
+    random.shuffle(s)
+    pas=("".join(s[0:passlen]))
+    print(pas)
+
+gen()
